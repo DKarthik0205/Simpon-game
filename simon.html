@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Simpon-game/css/simpon.css">
+    <title>Simon Game</title>
+</head>
+<body>
+  <div class="container">
+    <p id="result" class="hide">Demo Message</p>
+    <button id="start">Start Game</button>
+  </div>
+  <div class="wrapper hide">
+    <div class="simon">
+      <div class="color1 color-part" onclick="green()"></div>
+      <div class="color2 color-part" onclick="red()"></div>
+      <div class="color3 color-part" onclick="blue()"></div>
+      <div class="color4 color-part" onclick="yellow()"></div>
+      <div id="count">00</div>
+    </div>
+  </div>
+    <script src="../Simpon-game/js/simon.js"></script>
+</body>
+</html>
